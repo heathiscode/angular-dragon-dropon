@@ -1,0 +1,28 @@
+{
+  "name": "angular-dragon-dropon",
+  "main": "dragon-dropon.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/heathiscode/angular-dragon-dropon",
+  "authors": [
+    "Heath IsCode<heathiscode@gmail.com>"
+  ],
+  "description": "Angular directive for basic drag and drop",
+  "keywords": [
+    "angular",
+    "drag",
+    "drop",
+    "dnd",
+    "light",
+    "backwards",
+    "minimal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
+
