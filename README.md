@@ -19,7 +19,7 @@ Download 'angular-dragon-dropon.js' and include it in your application.
 
     <div drop-on dropped="dropTest" id="AItems" style="background: blue; width: 200px; min-height: 100px;">
         <ul>
-            <li ng-repeat="item in dropAItems" lwc-drag>
+            <li ng-repeat="item in dropAItems">
                 {{item.name}}
             </li>
         </ul>
