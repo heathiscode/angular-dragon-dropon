@@ -11,7 +11,6 @@ No tests have been run just yet.
 
 Download 'angular-dragon-dropon.js' and include it in your application. 
 
-<pre>
 
         <div>
             <button id="btnA" drag-on ng-model="buttonAData">A BUTTON</button>
@@ -43,7 +42,9 @@ Download 'angular-dragon-dropon.js' and include it in your application.
                 </ul>
             </div>
 
-....controller(function($scope) {
+Some rough test / example code to start with.
+
+     yourModule.controller(function($scope) {
         $scope.buttonAData= { id:'buttonA', title: 'This is an A title', type: 'button' };
         $scope.buttonBData= { id:'buttonB', title: 'This is a B title', type: 'button' };
         $scope.buttonCData= { id:'buttonC', title: 'This is a C title', type: 'button' };
@@ -56,7 +57,5 @@ Download 'angular-dragon-dropon.js' and include it in your application.
             var toId = angular.element(ddto).attr('id');
             $scope['drop'+toId].push({name: ddfrom.title });
         };
-});
-
-</pre>
+     });
 
